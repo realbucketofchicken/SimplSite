@@ -3,8 +3,20 @@ ul#menu li {
     display:inline;
   }
 .center {
-    display: block;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
   }
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+.buttonstyle {
+    background-color: rgb(41, 41, 41);
+    border: 3px solid rgb(51, 51, 51);
+    color: #792222;
+}
