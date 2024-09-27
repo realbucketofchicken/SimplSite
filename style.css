@@ -1,7 +1,7 @@
 body
 {
   background-color:rgb(26, 26, 26);
-  font-family: monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
 
@@ -10,7 +10,7 @@ body
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 
@@ -27,12 +27,12 @@ body
 
 .buttonstyle
 {
-  background-color: white;
+  background-color: rgb(72, 72, 72);
   border-radius: 10px;
   font-style: normal;
   text-decoration: none;
   font-size:x-large; 
-  padding: 3px;
+  padding: 5px 7px;
   margin-bottom: 1000px;
   transition: border-radius 200ms;
 }
@@ -45,5 +45,22 @@ body
 .buttonstyle:active
 {
   border-radius: 15px;
-  background-color: lightgray;
+  background-color: rgb(53, 53, 53);
+}
+
+.myList
+{
+  width: 400px;
+  text-align: start; 
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: white;
+  color:black; 
+  padding: 10px 20px; 
+  border-radius: 30px;
+}
+
+.myList:hover
+{
+  border-radius: 10px;
 }
