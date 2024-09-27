@@ -7,17 +7,21 @@ body
 
 .center
 {
+  display: block;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
   text-align: center;
+  
 }
 
 .hoverableImage
 {
   border-radius: 20px;
   transition: border-radius 200ms;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .hoverableImage:hover
