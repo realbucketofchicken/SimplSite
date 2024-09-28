@@ -12,8 +12,9 @@ async function GetChangelog() {
       
           const json = await response.json();
           console.log(json["body"]);
-          
+
           document.getElementById("changelog").innerHTML = json["body"];
+          document.getElementById("changelogname").innerHTML = "Changes for " + json["tag_name"];
         } catch (error) {
           console.error(error.message);
     }
