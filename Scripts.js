@@ -12,6 +12,7 @@ async function GetChangelog() {
       
           const json = await response.json();
           console.log(json["body"]);
+          
           document.getElementById("changelog").innerHTML = json["body"];
         } catch (error) {
           console.error(error.message);
