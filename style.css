@@ -40,12 +40,13 @@ body
 .buttonstyle:hover
 {
   border-radius: 4px;
+  background-color: rgba(75, 75, 75,0.377);
 }
 
 .buttonstyle:active
 {
   border-radius: 15px;
-  background-color: rgb(53, 53, 53);
+  background-color: rgba(22, 22, 22, 0.5);
 }
 
 .myList
@@ -77,11 +78,6 @@ body
   border-radius: 20px;
   width: 50%;
   transition: border-radius 200ms;
-}
-
-.hoverableImage:hover
-{
-  border-radius: 1px;
 }
 
 .discordtext
@@ -119,9 +115,4 @@ body
   .discordtext{
     font-size: xx-large;
   }
-}
-
-.myList:hover
-{
-  border-radius: 10px;
 }
