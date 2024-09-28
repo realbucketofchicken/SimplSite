@@ -66,6 +66,11 @@ body
   border-radius: 1px;
 }
 
+.discordtext
+{
+  font-size: larger;
+}
+
 @media screen and (max-width: 700px) {
   .hoverableImage {
     display: block;
@@ -79,6 +84,9 @@ body
   .hoverableImage {
     width: 50%;
     
+  }
+  .discordtext{
+    font-size: xx-large;
   }
 }
 
