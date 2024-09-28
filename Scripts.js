@@ -1,6 +1,4 @@
-let a = 2;
-
-GetChangelog();
+GetChangelog()
 
 async function GetChangelog() {
     const url = "https://api.github.com/repos/notdraimdev/simplaudio/releases/latest";
@@ -20,3 +18,4 @@ async function GetChangelog() {
     }
 
 }
+
