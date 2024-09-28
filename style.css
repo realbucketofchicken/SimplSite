@@ -64,6 +64,12 @@ body
   border-radius: 30px;
 }
 
+.simplfamillylogo
+{
+  position: fixed; 
+  z-index: 3;
+}
+
 .hoverableImage
 {
   float: left;
@@ -98,6 +104,11 @@ body
 
     margin-right: auto;
     width: 100%;
+  }
+  .simplfamillylogo {
+    width: 15%;
+    max-width: 80px;
+    height: auto;
   }
 }
 @media screen and (min-width: 701px) {
