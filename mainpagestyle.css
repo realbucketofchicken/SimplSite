@@ -11,9 +11,27 @@ body
     rgba(0, 0, 0, 0.4)
     
     ),
-    url(sunset-nature-landscape-evening.jpg);
+    url(Images/sunset-nature-landscape-evening.jpg);
     background-position: center;
     background-attachment: fixed;
+}
+
+h1
+{
+  background-image: linear-gradient(rgba(112, 234, 255, 0.562),rgb(250, 92, 255));
+  background-clip: text;
+  background-color: rgba(136, 136, 136, 0.425);
+  color: rgba(0, 255, 255, 0);
+  font-size: 10vw;
+}
+
+@keyframes hue-change {
+	0%, 100% {
+		filter:hue-rotate(0deg);
+	}
+	50% {
+		filter:hue-rotate(-45deg);
+	}
 }
 
 .center
