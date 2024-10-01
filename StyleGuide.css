@@ -51,9 +51,8 @@ body
 .myList
 {
   text-align: start; 
-  backdrop-filter: blur(10px);
   margin-bottom: 10px;
-  background-color: rgb(85, 114, 92);
+  background-color: rgb(73, 121, 118);
   color:rgb(255, 255, 255); 
   text-shadow: black 2px;
   outline-width: 2px;
